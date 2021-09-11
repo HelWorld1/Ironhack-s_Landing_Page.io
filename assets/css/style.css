@@ -1,0 +1,10 @@
+@import url('basic.css');
+
+.btn_courses {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+
+a {
+	font-family: 'Roboto Mono', monospace;
+}
