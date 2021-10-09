@@ -1,2 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+	--basic_color: #fff;
+	--general_color: #2d354c;
+	--secondary_color: #4DC3F9;
+	--third_color: #818693;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 500;
+	text-align: center;
+}
