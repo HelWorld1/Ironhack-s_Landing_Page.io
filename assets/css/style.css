@@ -99,8 +99,6 @@
 .programm_block h2 {
 	margin-top: 64px;
 	margin-bottom: 24px;
-	font-size: 38px;
-	line-height: 50px;
 	color: var(--general_color);
 }
 
@@ -188,9 +186,6 @@
 
 .information_block h2 {
 	padding-top: 64px;
-	font-size: 38px;
-	line-height: 50px;
-	letter-spacing: -0.02em;
 	color: var(--basic_color);
 }
 
@@ -218,16 +213,13 @@
 	color: var(--general_color);
 }
 
-.projects_block {
+.project_block {
 	padding-bottom: 64px;
 }
 
-.projects_block h2 {
+.project_block h2 {
 	margin-top: 64px;
 	margin-bottom: 20px;
-	font-size: 38px;
-	line-height: 50px;
-	letter-spacing: -0.02em;
 }
 
 .projects {
@@ -255,11 +247,51 @@
 .projects > div  p {
 	margin-top: 11px;
 	margin-bottom: 11px;
-	margin-left: 16px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 23px;
+}
+
+.students_block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.students_block h2 {
+	margin-top: 64px;
+}
+
+.main_students_block {
+	margin-top: 48px;
+	text-align: center;
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.personal_student_block {
+	margin-bottom: 48px;
+}
+
+.personal_student_block img {
+	width: 234px;
+	height: 256px;
+}
+
+.personal_student_block h3 {
+	margin-top: 16px;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 42px;
+}
+
+.personal_student_block p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 160%;
+	color: var(--third_color);
 }
 
 @media screen and (max-width: 1095px){
@@ -271,6 +303,19 @@
 @media screen and (max-width: 725px){
 	.projects {
 		grid-template-columns: 1fr;
+	}
+
+	.main_students_block {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.personal_student_block {
+		margin-bottom: 24px;
+	}
+
+	.personal_student_block img {
+		width: 156px;
+		height: 170px;
 	}
 }
 
