@@ -214,6 +214,9 @@
 }
 
 .project_block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	padding-bottom: 64px;
 }
 
@@ -224,7 +227,7 @@
 
 .projects {
 	max-width: 1008px;
-	display: grid;
+	display: grid-inline;
 	grid-template-columns: 1fr 1fr 1fr;
 	margin: 0 auto;
 }
