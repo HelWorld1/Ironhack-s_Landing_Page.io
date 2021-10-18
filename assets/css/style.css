@@ -341,6 +341,19 @@
 	color: var(--third_color);
 }
 
+footer {
+	padding-top: 64px;
+	padding-bottom: 64px;
+	text-align: center;
+	color: var(--basic_color);
+	background-color: var(--secondary_color);
+}
+
+footer > .apply_now {
+	color: var(--secondary_color);
+	background-color: var(--basic_color);
+}
+
 @media screen and (max-width: 1095px){
 	.projects {
 		grid-template-columns: 1fr 1fr;
