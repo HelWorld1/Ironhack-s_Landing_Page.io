@@ -273,23 +273,67 @@
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
-.personal_student_block {
+.student-s_personal_block {
 	margin-bottom: 48px;
 }
 
-.personal_student_block img {
+.student-s_personal_block img {
 	width: 234px;
 	height: 256px;
 }
 
-.personal_student_block h3 {
+.student-s_personal_block h3 {
 	margin-top: 16px;
 	font-weight: 500;
 	font-size: 32px;
 	line-height: 42px;
 }
 
-.personal_student_block p {
+.student-s_personal_block p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 160%;
+	color: var(--third_color);
+}
+
+.teacher-s_block {
+	text-align: center;
+	margin-top: 64px;
+	margin-bottom: 64px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.teacher-s_block h2 {
+	margin-bottom: 48px;
+}
+
+.main_teacher-s_block {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.teacher-s_personal_block {
+	display: inline-block;
+}
+
+.teacher-s_personal_block img {
+	width: 234px;
+	height: 234px;
+}
+
+.teacher-s_personal_block h3 {
+	margin-top: 16px;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 42px;
+}
+
+.teacher-s_personal_block p {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -312,11 +356,11 @@
 		grid-template-columns: 1fr 1fr;
 	}
 
-	.personal_student_block {
+	.student-s_personal_block {
 		margin-bottom: 24px;
 	}
 
-	.personal_student_block img {
+	.student-s_personal_block img {
 		width: 156px;
 		height: 170px;
 	}
