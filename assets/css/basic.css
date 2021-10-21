@@ -8,6 +8,11 @@
 	--third_color: #818693;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 a {
 	text-decoration: none;
 }
